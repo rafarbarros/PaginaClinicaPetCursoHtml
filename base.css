@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: whitesmoke
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 35%;
+    background-color:antiquewhite;
+    padding: 30px 5px 0px 0px;
+}
+.header {
+    background-color:aliceblue;
+    min-height: 150px;
+    text-align: center;
+ 
+}
+
+.img {
+    text-align: center;
+    
+    
+    
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    min-height: 300px;
+    padding: 20px;
+    
+}
+.footer {
+    background-color:wheat;
+    min-height: 150px;
+}
